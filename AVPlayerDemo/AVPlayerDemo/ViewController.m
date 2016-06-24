@@ -58,6 +58,7 @@
     [super viewDidAppear:animated];
 }
 
+// 监听缓存进度
 - (void)monitoringPlayback:(AVPlayerItem *)playerItem {
     
     __weak typeof(self) weakSelf = self;
